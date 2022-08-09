@@ -1,0 +1,33 @@
+{
+  "name": "project_ledger",
+  "version": "1.0.0",
+  "description": "A personalized Ledger to note expenses",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sh1001/project_ledger.git"
+  },
+  "keywords": [
+    "ledger",
+    "expense",
+    "tracker"
+  ],
+  "author": "sh1001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sh1001/project_ledger/issues"
+  },
+  "homepage": "https://github.com/sh1001/project_ledger#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
